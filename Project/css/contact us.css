@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+}
+section{
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 298px;
+    margin-top: 180px;
+    padding-bottom: 50px;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+    width: 100%;
+}
+.contact-left{
+    flex-basis: 40%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+}
+section h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: left;
+    color: #002754;
+}
+section p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: left;
+    color: #002754;
+    padding-top: 10px;
+}
+section h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: left;
+    color: #002754;
+    padding-top: 15px;
+}
+section ion-icon{
+    color:#000000;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top:10px;
+}
+.contact-right{
+    font-family: 'Poppins', sans-serif;
+    color: #002754;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.input-box{
+    height: 45px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #002754;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom-width: 2px;
+}
+input{
+    width:100%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    border-color: #002754;
+}
+#SBtn{
+    width:86%;
+    border: 0;
+    font-size: 16px;
+    padding: 16px 30px;
+    background: #002754;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Poppins', sans-serif;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:50px;
+    transform: translateX();
+    transition: 0.3s;
+}
+#SBtn:hover{
+    opacity: 0.7;
+}
+.visit-us{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    flex-basis: 40%;
+    padding: 40px 60px;
+}
+.map{
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #002754;
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: #fff;
+    display: flex;
+}
+.footer-content1{
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-content1 h3{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 18px;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-content2{
+    width: 33.33%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-content2 h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 65px;
+}
+.footer-content2 p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-content3{
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.footer-content3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 100px;
+    line-height: 28px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding-top: 40px;
+}
+.socials li{
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color .4s ease;
+}
+.socials ion-icon{
+    text-decoration: none;
+    color: #fff;
+}
+.socials ion-icon:hover{
+    opacity: 0.7;
+}
+
+header{
+    top: 0;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*----------logo-----------*/
+.navbar-logo {
+    display: inline-block;
+    float: left;
+    order: 2;
+	background-size: cover;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 55px; /*---------logo----------*/
+    z-index:0;
+}
+
+
+
+/*---------menu----------*/
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+}
+
+.dws-menu {
+    background: rgba(0, 39, 84, 1);  
+    height: 100%;
+}
+
+.dws-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*------menu-------*/
+
+.dws-menu {
+    text-align: left;
+    padding: 0px 0 0px 30px;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+    float: right;
+
+}
+
+.dws-menu > ul{
+    display: flex;
+    justify-content: right;
+}
+
+.dws-menu > ul li{
+    position: relative;
+}
+
+.dws-menu > ul{
+    margin-top: 29px;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    background: rgba(0, 39, 84, 1); 
+    padding: 24px 30px 20px 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover{
+    background: #ffffff;
+    color: rgba(0, 39, 84, 1);
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+.dws-menu {
+    content: "";
+    height: 94px;
+    width: auto;
+    background-color: #002754;
+    
+    display: block;
+    margin: auto;
+    
+}
+   
+/*-----------sub menu------------*/
+.dws-menu li ul {   /*schedule*/
+    position: absolute;
+    min-width: 146px;/*ширина саб меню*/
+    display: none;
+}
+
+
+.dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+    height: auto;
+}
+
+.dws-menu li > ul li a{
+    padding: 20px;
+    text-transform: none;
+    background: rgba(0, 39, 84, 1);
+    text-transform:uppercase;
+}
+
+.dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.dws-menu li:hover > ul{
+    display: block;
+}
+
+
+
+/*------------------login-------------*/
+.dws-menu > ul div a:last-child{
+    padding: 9px 250px 0px 0px;
+    width: 150px;
+    display: block;
+}
+

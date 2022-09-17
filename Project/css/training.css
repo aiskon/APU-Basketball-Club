@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    
+}
+
+header{
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    
+}
+
+
+
+/*----------logo-----------*/
+.navbar-logo {
+    display: inline-block;
+    float: left;
+    order: 2;
+	background-size: cover;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 55px; /*---------logo----------*/
+    z-index:4;
+}
+
+
+
+/*---------menu----------*/
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+
+}
+
+.dws-menu {
+    background: rgba(0, 39, 84, 1);  
+    height: 100%;
+    position: relative;
+    z-index:3;
+    
+}
+
+.dws-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*------menu-------*/
+
+.dws-menu {
+    text-align: left;
+    padding: 0px 0 0px 30px;
+    content: "";
+    height: 94px;
+    width: auto;
+    background-color: #002754;
+    
+    display: block;
+    margin: auto;
+    padding-left: 55px;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+    float: right;
+   
+}
+
+.dws-menu > ul{
+    display: flex;
+    justify-content: right;
+}
+
+.dws-menu > ul li{
+    position: relative;
+}
+
+.dws-menu > ul{
+    margin-top: 29px;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    background: rgba(0, 39, 84, 1); 
+    padding: 24px 30px 20px 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover{
+    background: #ffffff;
+    color: rgba(0, 39, 84, 1);
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+/*------------------login-------------*/
+.dws-menu > ul div a:last-child{
+    padding: 9px 250px 0px 0px;
+    width: 150px;
+    display: block;
+
+}
+
+
+
+
+
+/*-----------sub menu------------*/
+.dws-menu li ul {   /*schedule*/
+    position: absolute;
+    min-width: 146px;/*ширина саб меню*/
+    display: none;
+}
+
+
+.dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+    height: auto;
+
+}
+
+.dws-menu li > ul li a{
+    padding: 20px;
+    text-transform: none;
+    background: rgba(0, 39, 84, 1);
+    text-transform:uppercase;
+}
+
+.dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.dws-menu li:hover > ul{
+    display: block;
+}
+
+
+
+
+
+
+/* =================================================================*/
+/*---------------------------END HEADER-------------------------*/
+
+
+/*---------------------------FOOTER--------------------------*/
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #002754;
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: #fff;
+    display: flex;
+    margin-top: 1170px;
+
+}
+.footer-content1{
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-content1 h3{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 18px;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-content2{
+    width: 33.33%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-content2 h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+}
+.footer-content2 p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-content3{
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.footer-content3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 100px;
+    line-height: 28px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding-top: 40px;
+}
+.socials li{
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color .4s ease;
+}
+.socials ion-icon{
+    text-decoration: none;
+    color: #fff;
+}
+.socials ion-icon:hover{
+    opacity: 0.7;
+}
+
+
+
+/*---------------------------END FOOTER--------------------------*/
+
+
+
+
+/*---------------------------BODY-------------------------*/
+
+.image img{
+    position: absolute;
+    z-index:1;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: center;
+    
+}
+
+    
+
+.training{
+    background-color: white;
+    z-index:1;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.training h1{
+    text-align: center;
+    font-size: 70px;
+    color: #002754;
+    letter-spacing: 1.5px;
+    margin-top: 80px;
+    text-transform: uppercase ;
+    font-weight:bold;
+    letter-spacing:5px;
+    padding: 20px 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.training h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #002754;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+.training h2::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* =================================================================*/
+
+.content h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #B3363A;
+    text-align: left;
+    float: left;
+    width: 20%;
+    margin-right: auto;
+    margin-left: 230px;
+    margin-top: 50px;
+
+}
+
+.content h6{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    float: right;
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-left: 110px;
+}
+
+.content h5::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: -190px;
+}
+
+
+
+/* =================================================================*/
+
+
+
+.content1{
+    width: 900px; /* Ширина макета */
+    margin: 0 auto;
+}
+
+.content1 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #B3363A;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -7px;
+    width: 300px; /* Ширина левой колонки */
+    float: left;
+}
+
+.content1 h6 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    margin: 197px 300px 0 350px;
+}
+
+.content1 p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    width: 300px; /* Ширина правой колонки */
+    float: right;
+    margin: -22px 0 0 800px;
+    padding-left: 100px;
+}
+
+.content1 p::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+    margin-left: -700px;
+}
+
+
+/* =================================================================*/
+
+
+.content2{
+    width: 900px; /* Ширина макета */
+    margin: 0 auto;
+}
+
+.content2 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #B3363A;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -7px;
+    width: 300px; /* Ширина левой колонки */
+    float: left;
+}
+
+.content2 h6 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    margin: 100px 300px 0 350px;
+}
+
+.content2 p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    width: 300px; /* Ширина правой колонки */
+    float: right;
+    margin: -22px 0 0 800px;
+    padding-left: 100px;
+}
+
+.content2 p::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+    margin-left: -700px;
+}
+
+
+/* =================================================================*/
+
+.content3{
+    width: 900px; /* Ширина макета */
+    margin: 0 auto;
+}
+
+.content3 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #B3363A;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -7px;
+    width: 300px; /* Ширина левой колонки */
+    float: left;
+}
+
+.content3 h6 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    margin: 100px 300px 0 350px;
+}
+
+.content3 p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    width: 300px; /* Ширина правой колонки */
+    float: right;
+    margin: -22px 0 0 800px;
+    padding-left: 100px;
+}
+
+.content3 p::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: -700px;
+}
+
+
+/* =================================================================*/
+
+.content4{
+    width: 900px; /* Ширина макета */
+    margin: 0 auto;
+}
+
+.content4 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #B3363A;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -7px;
+    width: 300px; /* Ширина левой колонки */
+    float: left;
+}
+
+.content4 h6 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    margin: 100px 300px 0 350px;
+}
+
+.content4 p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    width: 300px; /* Ширина правой колонки */
+    float: right;
+    margin: -22px 0 0 800px;
+    padding-left: 100px;
+}
+
+.content4 p::after{
+    content: "";
+    height: 2px;
+    width: 1100px;
+    background-color: #B3363A;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: -800px;
+    margin-bottom: 0px;
+}
+

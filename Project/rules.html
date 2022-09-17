@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules of the Game</title>
+    
+    <link rel="stylesheet" href="css/rules.css">
+ 
+</head>
+<body>
+
+
+    <header>
+        <a class="navbar-logo" href=""><img src="img/Group 50.svg" width="120" height= "120" alt="Group 50" ></a>
+        <nav class="dws-menu">
+        
+            
+            <ul>
+                <li><a href="Homepage.html">Homepage</a></li>
+                <li><a href="GalleryPage.html">Gallery</a></li>
+                <li><a href="#">Sport</a>
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="rules.html">Rules</a></li>
+                    </ul>
+                <li><a href="#">Schedule</a>
+                    <ul>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="Game.html">Game</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a>
+                    <ul>
+                        <li><a href="AboutUs.html">About us</a></li>
+                        <li><a href="OurTeam.html">Team</a></li>
+                        <li><a href="Achievement.html">Achievements</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact us.html">Contact us</a></li>
+
+                <div class="login-box">
+                    <li><a class="navbar-login" href="Log in.html"><img id= "login"src="img/Group 47.svg" width="250" height= "50" alt="Group 47" onMouseOver="window.document.images['login'].src='img/Group 51.svg';" onMouseOut="window.document.images['login'].src='img/Group 47.svg';" ></a></li>
+                    
+                </div>
+            </ul>
+            
+        </nav>
+    </header>
+
+
+
+
+    <div class="image">
+        <img src="img/sayan-ghosh-DT6tSBz1Hi4-unsplash 1.png" alt="image">
+    </div>           
+    <section>
+        <div class="rules">
+            
+            <h1>Rules of the game</h1>
+            <h2>Basketball is a team sport. Two teams of five players each try to score by shooting a ball through a hoop. </h2>
+            <div class="wrapper">
+                
+                <div class="content1">
+                    <h5>01</h5>
+                    <h6>The Game</h6>
+                    <p>To start the game, an official tosses the ball up (Jump Ball) between two opponents who stand in the smaller circle. All other players may take any position they wish, outside the larger center circle. The two opposition players jump to tap the ball to a teammate, then each team tries to advance the ball toward the opponent’s goal to score by shooting it through their goal.</p>
+                </div>
+                <div class ="image1">
+                    <img src="img/jeremy-wallace-_XjW3oN8UOE-unsplash 1.png" alt="image" width="450" height="">
+                
+                </div>
+
+
+
+
+                <div class="content2">
+                    <h3>Basketball Court</h3>
+                </div>
+<!-------Slider------>
+                <div id="mySlider">
+                    <div class="slideshow-container">
+            
+                        <div class="mySlides fade">
+                          <div class="numbertext1">1 / 3</div>
+                          <img src="img/basketballcourt.png" style="width:100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="img/izuddin-helmi-adnan-UQpTP-KqYRk-unsplash.jpg" style="width:100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="img/markus-spiske-J_tbkGWxCH0-unsplash.jpg" style="width:100%">
+                
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                        
+                        <script>
+                            var slideIndex = 1;
+                            showSlides(slideIndex);
+                            
+                            function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {slideIndex = 1}    
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                            }
+                        </script>
+                </div>
+<!-------End Slider------>
+
+                <div class="c3">
+                    <div class="content3">
+                        <h5>02<br>Scoring</h5>
+                    </div>
+                    <div class="content31">
+                        <p>A successful goal from the field is worth 2 points.  1 point is awarded for a successful free throw. 3 points are awarded from the 3-point line. After a score, the ball is put back into play at the end of the court by the non scoring team.</p>
+                    </div>
+                </div>
+
+                <div class="content4">
+                    <h5>03</h5>
+                    <h6>Positions</h6>
+                    <p>Although players are allowed to play in any position, the most common positions of the five players on a team are:</p>
+                    <br>•	point guard (best ball handler)</p>
+                    <br>•	shooting guard (best outside shooter)</p>
+                    <br>•	small forward (versatile inside and outside player)</p>
+                    <br>•	power forward (strong rebounding forward)</p>
+                    <br>•	center (inside scorer, rebounder, and shot blocker)</p>
+                </div>
+                <div class="image3">
+                    <img src="img/IMG_5682 1.png" alt="image" width="450" height="">
+                </div>
+
+
+                <div class="content5">
+                    <h5>04<br>Fouls</h5>
+                </div>
+                <div class="content51">
+                    <p>•	A personal foul occurs when a player holds, trips, blocks, pushes, kicks, or charges an opponent; or engages in rough or unsportsmanlike play.
+                    <br>•	5 personal fouls on any one player results in disqualification from the game.
+                    <br>•	7 team fouls and the opponents shoot 1 plus a bonus.
+                    <br>•	10 team fouls and opponents shoot double bonus.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <footer>
+        <div class="footer-content1">
+            <h3>APU - Malaysia's Award-Winning University</h3>
+            <a href="Contact us.html" class="btn">CONTACT US</a> |
+            <a href="AboutUs.html" class="btn">ABOUT US</a>
+        </div>
+        <div class="footer-content2">
+            <h3>Asia Pacific University of Technology & Innovation (APU)</h3>
+            <p>Technology Park Malaysia, Bukit Jalil, Kuala Lumpur 57000 Malaysia. JPT/BPP(U)1000-801/63/Jld.3(18)</p>
+            <ul class="socials">
+                <li><ion-icon name="logo-discord"></ion-icon></li>
+                <li><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                <li><ion-icon name="logo-instagram"></ion-icon></li>
+            </ul>
+        </div>
+        <div class="footer-content3">
+            <p>Tel: +603 8996 1000</p>
+            <p>Tel: 1 300 888 278 (Toll-free)</p>
+            <p>Email: info@apu.edu.my</p>
+            <p>Web:   www.apu.edu.my</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
